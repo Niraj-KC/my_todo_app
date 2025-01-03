@@ -1,16 +1,49 @@
-# my_todo_app
+# My Todo App
 
-A new Flutter project.
+## Overview
+A simple and elegant Flutter-based Todo application that helps you manage your daily tasks efficiently.
+
+## Features
+- Create, view, and manage todo items
+- Clean and intuitive user interface
+- Responsive design for multiple platforms
+
+## Prerequisites
+- Flutter SDK (latest stable version)
+- Dart SDK
+- Android Studio or VS Code with Flutter extensions
+- Android/iOS simulator or physical device
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/my-todo-app.git
+   cd my-todo-app
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+2. Install Flutter dependencies:
+   ```bash
+   flutter pub get
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Run the app:
+   ```bash
+   flutter run -d chrome
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Project Structure
+```
+    lib/
+    ├── main.dart         # App entry point
+    ├── models/           # Data models
+    │   └── todo.dart     # Todo item model
+    └── screens/          # App screens
+        └── todo_list_screen.dart  # Main todo list screen
+```
+
+### Technologies Used
+- Flutter
+- Dart
+- Material Design
